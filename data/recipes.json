@@ -1,0 +1,62 @@
+{
+    "description": "List of all the amaro recipes.",
+    "recipes": [
+        {
+            "slug": "anisette-v1",
+            "title": "Anisette",
+            "description": "",
+            "short-description": "",
+            "ingredients": {
+                "95% Grain Alcohol": "750ml",
+                "Water": "6C",
+                "Sugar": "2C",
+                "Gentian Root": "5g",
+                "Orange Peel": "15g",
+                "Star Anise": "2g",
+                "Fennel Seed": "2g",
+                "Lemongrass": "2g",
+                "Dandelion Root": "5g",
+                "Fresh Ginger": "10g",
+                "Fresh Rhubarb": "300g",
+                "Yarrow": "3g",
+                "Hyssop": "5g",
+                "Rosemary": "5g",
+                "Mint": "5g",
+                "Sage": "5g"
+            },
+            "steps": [
+                "Add grain alcoholto a container with the gentian root and dandelion root and let steep for about two weeks, tasting until the bitter is just under the final level.",
+                "Add all remaining dried ingredients and let steep for one week, tasting until flavors are all present.",
+                "Add all fresh ingrients, and let steep for two to five days, until all flavors are properly balanced.",
+                "Make 2 cups of 1-to-1 simple syrup. Allow to cool completely.",
+                "Strain out all solids with a fine mesh strainer. Continue straining in multiple stages with paper towels and coffee filters until no visible particales are left.",
+                "Add the simple syrup and 4 cups of water to the amaro and mix. Distribute into as many jars and bottles as needed and allow to sit for two weeks to let flavors meld together.",
+                "A final filter pass may be necessary to remove settled particulate."
+            ]
+        },
+        {
+            "slug": "",
+            "title": "Christmas",
+            "description": "",
+            "short-description": "",
+            "ingredients": {},
+            "steps": []
+        },
+        {
+            "slug": "",
+            "title": "Rabarbaro",
+            "description": "",
+            "short-description": "",
+            "ingredients": {},
+            "steps": []
+        },
+        {
+            "slug": "",
+            "title": "Limeaide",
+            "description": "",
+            "short-description": "",
+            "ingredients": {},
+            "steps": []
+        }
+    ]
+}
