@@ -1,8 +1,7 @@
 function getRecipes(recipes) {
-    var allRecipes = recipes.recipes;
     var recipeNames = [];
 
-    for (var recipe of allRecipes) {
+    for (var recipe of recipes) {
         recipeNames.push(recipe.title);
     }
 
@@ -22,12 +21,8 @@ function insertRecipeNamesList(recipeNames, id) {
         mainContainer.appendChild(li);
     }
 }
-
-import data from "../../data/recipes.json" assert { type: "json" };
-
-insertRecipeNamesList(getRecipes(data), "recipe-list")
-
-
+import recipes from "/data/recipes.json" assert { type: "json" };
+insertRecipeNamesList(getRecipes(recipes), "recipe-list");
 
 function makeWebpage(stub) {
     var opened = window.open(stub);

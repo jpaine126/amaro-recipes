@@ -5,36 +5,12 @@ class Header extends HTMLElement {
   
     connectedCallback() {
       this.innerHTML = `
-        <style>
-          nav {
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color:  #0a0a23;
-          }
-
-          nav ul {
-            padding: 0;
-          }
-          
-          nav a {
-            font-weight: 700;
-            margin: 0 25px;
-            color: #fff;
-            text-decoration: none;
-          }
-          
-          a:hover {
-            padding-bottom: 5px;
-            box-shadow: inset 0 -2px 0 0 #fff;
-          }
-        </style>
         <header>
           <nav>
             <ul>
-              <a href="index.html">About</a>
-              <a href="src/routes/recipes.html">Recipes</a>
+              <a href="/index.html">Home</a>
+              <a href="/src/routes/about.html">About</a>
+              <a href="/src/routes/recipes.html">Recipes</a>
             </ul>
           </nav>
         </header>

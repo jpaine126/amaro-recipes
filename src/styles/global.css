@@ -1,0 +1,68 @@
+* {
+    font-family: Cambria, serif;
+}
+
+/* main page styling */
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url('/static/background.jpg');
+    position: relative;
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+    height: 500px;
+}
+
+.content-box {
+    display: inline-block;
+    background: white;
+    text-align: center;
+    border: 1px solid black;
+    margin: auto auto;
+    margin-top: 50px;
+    padding: 5px;
+    width: 300px;
+}
+
+/* recipe page */
+#recipe-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header styling */
+header-component nav {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #0a0a23;
+}
+
+header-component nav ul {
+    padding: 0;
+}
+
+header-component nav a {
+    font-weight: 300;
+    margin: 0 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header-component a:hover {
+    padding-bottom: 5px;
+    box-shadow: inset 0 -2px 0 0 #fff;
+}
+
+/* footer styling */
+footer-component {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #0a0a23;
+}
