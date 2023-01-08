@@ -9,7 +9,11 @@
         <link rel="stylesheet" href="/src/styles/global.css">
         <script src="/src/components/header.js" type="text/javascript" defer></script>
         <script src="/src/components/footer.js" type="text/javascript" defer></script>
-        <script src="/src/templates/recipePage.js" type="module"></script>
+        <script type="module">
+            import {makeRecipeNamesContainer} from "/src/components/recipeList.js"
+            var parentContainer = document.getElementById("recipe-list-container")
+            parentContainer.appendChild(makeRecipeNamesContainer())
+        </script>
     </head>
     <body>
         <header-component></header-component>
@@ -17,10 +21,12 @@
             <div class="content-box">
                 <h1>Recipes</h1>
             </div>
-            <div class="content-box">
-                <ul id="recipe-list"></ul>
+            <div class="content-box" id="recipe-list-container">
+                <!-- <ul id="recipe-list"></ul> -->
             </div>
         </div>
         <footer-component></footer-component>
+
+        
     </body>
 </html>
