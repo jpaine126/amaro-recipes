@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Amaro</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/src/styles/global.css">
+        <script src="/src/components/header.js" type="text/javascript" defer></script>
+        <script src="/src/components/footer.js" type="text/javascript" defer></script>
+        <script type="module">
+            import {makeRecipePage} from "/src/templates/recipePage.js";
+            var parentContainer = document.getElementById("recipe-page-container");
+            parentContainer.appendChild(makeRecipePage(0));
+        </script>
+    </head>
+    <body>
+        <header-component></header-component>
+        <div class="main-page">
+            <div class="content-box" id="recipe-page-container">
+            </div>
+        </div>
+        <footer-component></footer-component>
+    </body>
+</html>
