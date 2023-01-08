@@ -1,8 +1,10 @@
 [
     {
-        "slug": "anisette-v1",
+        "slug": "/src/routes/recipes/anisette-v1.html",
         "title": "Anisette",
-        "description": "",
+        "name": "anisette-v1",
+        "id": 0,
+        "description": "the anisette description",
         "short-description": "",
         "ingredients": {
             "95% Grain Alcohol": "750ml",
@@ -33,25 +35,31 @@
         ]
     },
     {
-        "slug": "",
+        "slug": "/src/routes/recipes/christmas.html",
         "title": "Christmas",
-        "description": "",
+        "name": "christmas",
+        "id": 1,
+        "description": "the christmas description",
         "short-description": "",
         "ingredients": {},
         "steps": []
     },
     {
-        "slug": "",
+        "slug": "/src/routes/recipes/rabarbaro.html",
         "title": "Rabarbaro",
-        "description": "",
+        "name": "rabarbaro",
+        "id": 2,
+        "description": "the rabarbaro description",
         "short-description": "",
         "ingredients": {},
         "steps": []
     },
     {
-        "slug": "",
+        "slug": "/src/routes/recipes/limeaide.html",
         "title": "Limeaide",
-        "description": "",
+        "name": "limeaide",
+        "id": 3,
+        "description": "the limeaide description",
         "short-description": "",
         "ingredients": {},
         "steps": []
